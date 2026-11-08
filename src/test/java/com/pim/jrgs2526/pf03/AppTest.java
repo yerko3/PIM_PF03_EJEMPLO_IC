@@ -10,7 +10,7 @@ import org.junit.jupiter.params.provider.ValueSource;
  * Unit test for simple App.
  */
 public class AppTest {
-
+//
     @ParameterizedTest
     @ValueSource(ints = {5, 6, 7, 8, 9, 10})
     public void testCalcularAprobado(int nota) {
