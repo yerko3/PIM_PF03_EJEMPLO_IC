@@ -10,7 +10,7 @@ public class App
     {
         System.out.println( "Hello World!" );
     }
-    // Practica de integracion continua
+    // Practica de integracion   continua.
     public int calcularNota(int nota) {
         if (nota >= 0 && nota <= 4)
             return -1;
