@@ -4,7 +4,7 @@ package com.pim.jrgs2526.pf03;
  * Hello world!
  *
  */
-public class App 
+public class App
 {
     public static void main( String[] args )
     {
@@ -16,6 +16,6 @@ public class App
             return -1;
         if (nota >= 5 && nota <= 10)
             return 1;
-        throw new IllegalArgumentException("Error al calcular nota");
+        throw new IllegalArgumentException("Error al calcular la nota");
     }
 }
